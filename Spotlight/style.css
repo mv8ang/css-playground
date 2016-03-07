@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+@-webkit-keyframes colorFade{
+	0% {
+		color: #000;
+	}
+
+	10% {
+		color: #f00;
+	}
+
+	100% {
+		color: #000;
+	}
+}
+
+.welcome{
+	margin:100px auto;
+	padding:0 30px;
+	width:711px;
+	border:10px solid red;
+}
+
+.welcome span{
+	font-family: 'Lato', sans-serif;
+	font-size: 4rem;
+}
+
+.welcome h1 span.highlighted{
+	-webkit-animation: colorFade 3s forwards alternate;
+}
+
+h1 {
+display: inline-block;
+-webkit-margin-before: 0.67em;
+-webkit-margin-after: 0.67em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+font-weight: bold;
+}
+
+h1:first-child{
+	margin-right:40px;
+}
+
+h1:last-child{
+	margin-left:40px;
+}

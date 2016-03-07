@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="menu">
+				<ul>
+					<li>Main</li>
+					<li>About</li>
+					<li>Contacts</li>
+				</ul>
+			</div>
+
+			<div class="show-menu">
+				Toggle shit
+			</div>
+
+			<div class="square">
+			</div>
+
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				$(".show-menu").on('click', function(){
+					$(".menu").toggleClass('open');
+					$(".square").toggleClass('roll');
+				});
+			});
+		</script>
+	</body>
+</html>

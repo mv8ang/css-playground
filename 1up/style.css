@@ -1,0 +1,132 @@
+@keyframes mindFuck {
+	0% { background: yellow; }
+	5% { background: green; }
+	10% {background: purple;}
+	15% {background:red;}
+	20% {background: black;}
+	25% {background: orange;}
+	30% {background: green;}
+	35% {background: olive;}
+	40% {background: gold;}
+	45% {background: maroon;}
+	50% {background: silver;}
+	55% {background: red;}
+	60% {background: pink;}
+	65% {background: green;}
+	70% {background: yellow;}
+	75% {background: black;}
+	80% {background: silver;}
+	85% {background: green;}
+	90% {background: maroon;}
+	95% {background: blue;}
+	100% {background: pink;}
+}
+@-webkit-keyframes mindFuck {
+	0% { background: yellow; }
+	5% { background: green; }
+	10% {background: purple;}
+	15% {background:red;}
+	20% {background: black;}
+	25% {background: orange;}
+	30% {background: green;}
+	35% {background: olive;}
+	40% {background: gold;}
+	45% {background: maroon;}
+	50% {background: silver;}
+	55% {background: red;}
+	60% {background: pink;}
+	65% {background: green;}
+	70% {background: yellow;}
+	75% {background: black;}
+	80% {background: silver;}
+	85% {background: green;}
+	90% {background: maroon;}
+	95% {background: blue;}
+	100% {background: pink;}
+}
+
+@keyframes toBlue {
+	0% {background: green;}
+	50% {background: blue;}
+	100% {background: red;}
+}
+@-webkit-keyframes toBlue {
+	0% {background: green;}
+	50% {background: blue;}
+	100% {background: red;}
+}
+
+@keyframes toLightBlue {
+	0% {background: lightgreen;}
+	50% {background: lightblue;}
+	100% {background: lightcoral;}
+}
+@-webkit-keyframes toLightBlue {
+	0% {background: lightgreen;}
+	50% {background: lightblue;}
+	100% {background: lightcoral;}
+}
+
+@keyframes toOrange {
+	0% {background: black;}
+	100% {background: orange;}
+}
+@-webkit-keyframes toOrange {
+	0% {background: black;}
+	100% {background: orange;}
+}
+
+body {
+	animation: mindFuck 5s infinite;
+}
+
+.shroom {
+	width: 318px;
+	height: 30%;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform:translate(-50%, -50%);
+	-webkit-transform:translate(-50%, -50%);
+}
+
+.row {
+	height: 16px;
+	position: relative;
+	width: 100%;
+}
+
+.px {
+	width: 5%;
+	float: left;
+	height: 100%;
+}
+
+.offset-1 {margin-left: 5%;}
+.offset-2 {margin-left: 10%;}
+.offset-3 {margin-left: 15%;}
+.offset-4 {margin-left: 20%;}
+.offset-5 {margin-left: 25%;}
+.offset-6 {margin-left: 30%;}
+
+
+.blink {
+	animation: toOrange .3s infinite;
+	aniation-direction: alternate;
+}
+.black {
+	background-color: black;
+}
+.green {
+	background-color: green;
+	animation: toBlue 1s infinite;
+	animation-direction: alternate;
+}
+.light-green {
+	background-color: lightgreen;
+	animation: toLightBlue 1s infinite;
+	animation-direction: alternate;
+}
+.white {
+	background-color: white;
+}

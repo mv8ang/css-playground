@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+a{
+	font-family: arial, "century gothic", sans-serif;
+	font-size:0.7em;
+	color:#000;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+
+
+
+
+
+ul{
+	list-style-type:none;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:31%;
+	width:340px;
+}
+
+li{
+	-webkit-transform:skew(-10deg);
+	-moz-transform:skew(-10deg);
+	-o-transform:skew(-10deg);
+	-ms-transform:skew(-10deg);
+	transform:skew(-10deg);
+
+	opacity:0.95; /* makes the blocks slightly transparent in their initial state */
+	margin-right:1px;
+	float:left;
+	width:55px;
+	height:40px;
+	color:#fff; /* font colour */
+	text-align:center;
+	font-size:2em;
+	font-family: nova-slim;
+}
+
+li:first-child{
+	border-radius:5px 0 0 5px; /* rounds the edges of the first block */
+	background:#90ca77;
+}
+
+li:nth-child(2){
+	background:#81c6dd;
+}
+
+li:nth-child(3){
+	background:#ecb950;
+}
+
+li:nth-child(4){
+	background:#f59854;
+}
+
+li:nth-child(5){
+	background:#e0833f;
+}
+
+li:last-child{
+	border-radius:0 5px 5px 0; /* rounds the edges of the last block */
+	background:#9e3b33;
+}
+
+ul li:hover{
+	opacity:1; /* makes the blocks opaque on hover */
+	-webkit-transform:scale(1.5) skew(-10deg);
+	-moz-transform:scale(1.5) skew(-10deg);
+	-o-transform:scale(1.5) skew(-10deg);
+	-ms-transform:scale(1.5) skew(-10deg);
+	transform:scale(1.5) skew(-10deg);
+}
