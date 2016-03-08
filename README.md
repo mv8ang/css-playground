@@ -15,10 +15,6 @@ A grid experiment that turned into pixel art, spiced up with funky background co
 
 **MAY CAUSE SEISURES**
 
-This site was built using [GitHub Pages](https://pages.github.com/).
-
-This site was built using [GitHub Pages](https://pages.github.com/).
-
 [The link](http://mladenangelov.net/testsilo/Projects/1up/index2.html)
 
 [Original version](http://mladenangelov.net/testsilo/Projects/1up/index.html)
