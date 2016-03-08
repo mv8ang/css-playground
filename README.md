@@ -7,11 +7,9 @@ Feel free to use them though, the code is super straight-forward.
 
 # DESCRIPTION:
 
-# 1up
+## 1up
 A grid experiment that turned into pixel art, spiced up with funky background colours
-# MAY CAUSE SEISURES!
-# MAY CAUSE SEISURES!
-
+## MAY CAUSE SEISURES!
 -------------
 
 # deadpr0ject
