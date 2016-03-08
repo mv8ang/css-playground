@@ -1,5 +1,5 @@
 # css-playground
-Some of the very first experiments I did with CSS. 
+A bunch of cool things I made with CSS. 
 Some of them more successful than others, but each has something that could be reused.
 
 They're not documented properly, because they're not intended for public use.
